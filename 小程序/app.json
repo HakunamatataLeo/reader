@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/booklist/booklist",
+    "pages/sign/sign"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Reader",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "position":"bottom",
+        "iconPath": "image/home.png",
+        "selectedIconPath":"image/backhome.png"
+      },
+      {
+        "pagePath": "pages/sign/sign",
+        "text": "打卡",
+        "position": "top",
+        "iconPath":"image/unsign.png",
+        "selectedIconPath": "image/sign.png"
+      },
+      {
+        "pagePath": "pages/booklist/booklist",
+        "text": "书单",
+        "position": "top",
+        "iconPath": "image/unbooklist.png",
+        "selectedIconPath": "image/booklist.png"
+      }
+    ]
+  }
+}
